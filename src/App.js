@@ -16,8 +16,8 @@ export default function App() {
   const [items, setItems] = React.useState([1, 2, 3]);
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h1>Hello</h1>
+      <h2>Click Hello to see the spring animation</h2>
       {items.map(i => (
         <SubComponent
           key={i}
